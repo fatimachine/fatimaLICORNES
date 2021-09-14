@@ -1,0 +1,16 @@
+/* styles pour les licornes pisola */
+
+/* font-family: 'Courgette', cursive; */
+
+body {
+    background-image:url(../img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
