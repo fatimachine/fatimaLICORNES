@@ -9,6 +9,8 @@ body {
 
 
 main {
+    border-radius: 30px;
+    
     width: 900px;
     margin: 0 auto;
 
@@ -28,24 +30,39 @@ header {
     font-family: 'Courgette', cursive;
 }
 
-header nav a {
-     color: #fff;
-    text-decoration: none;
+nav {
+    margin:0;
     text-align: right;
 }
 
-header nav a:hover {
+nav a {
+
+ 
+    width: 130px;
+    line-height: 20px;
+    
+
+    border-right: 2px solid #C55394;
+
+    text-decoration: none;
     color: #fff;
-    transition-duration: 1s;
+    letter-spacing: 2px;
+}
+nav a:hover {
+    
+    background-color: #EB43A3;
+
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    
+
 }
 
 h1 {
 
-    background:url('../img/rainbow.png')no-repeat;
-    background-position:top;
-    background-size:auto; 
-
-
+    background:url('../img/rainbow.png') no-repeat top;
+   
     font-family: 'Courgette', cursive;
     text-align: center;
     color:#C55394;  
@@ -56,11 +73,6 @@ h4 {
 
 }
 
-#conteneur {
-    
-box-shadow: 800px 800px 54px px #FCFCFC;
-    border-radius: 2px solid #fff;
-}
 
 .titre {
     color: #EB43A3;
@@ -85,6 +97,10 @@ figcaption {
     color: #fff;
     text-align: center;
 }
+address {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 button {
     background-color: #E577B5;
