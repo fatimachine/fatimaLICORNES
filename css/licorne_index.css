@@ -1,153 +1,69 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* styles pour les licornes pisola */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+/* font-family: 'Courgette', cursive; */
+
 body {
-	line-height: 1;
+    background-image:url(../img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-body {
 
-font-family:Arial, Helvetica, sans-serif;
-font-size: 0.9em;
-margin: 0;
-}
-/* style licorne index  */
- body {
-    font-family: Arial, sans-serif;
-    background: url(../img/background.png)repeat;
-    font-size: 0.9em;
-    margin: 0;
-    color:#EB43A3;
- }
 
-.wrapper {
+main {
+    width: 900px;
+    margin: 0 auto;
+
     font-family: 'Courgette', cursive;
-    /* margin: 0 auto;
-    width:800px; */
+    background-color: #fff;
 
-    background: #fff;
-    /* border: 2px solid #ab4; */
-    text-align: left;
-    
 }
 
-
-
-
-.page-header  {
- 
-    /* width: 800px;
-    height: 60px; */
+header {
+    
+    /* width: 900px; */
+    margin: 0 auto;
 
     background-color: #C55394;
     color: #fff;
 
-
+    font-family: 'Courgette', cursive;
 }
 
-/* la navigation  */
-
-nav ul {
-    height: 40px;
-    margin: 0;
-    padding: 0;
-
-     list-style-type: none;
-}
-
-nav  li {
- float: left;
-
-   text-align: right;
-}
-
-nav ul li a {
-    display: block;
-    width: 130px;
-    line-height: 20px;
-    
-
+header nav a {
+     color: #fff;
     text-decoration: none;
+    text-align: right;
+}
+
+header nav a:hover {
     color: #fff;
-
-}
-
-nav ul li a:hover {
-    background-color: #EB43A3;
-    color: white;
-}
-
-
-/* contenu principal  */
-
-#principal p {
-    font-family: Arial, sans-serif; 
+    transition-duration: 1s;
 }
 
 h1 {
-    color: #C55394;
+
+    background:url('../img/rainbow.png')no-repeat;
+    background-position:top;
+    background-size:auto; 
+
+
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color:#C55394;  
 }
 
-h2 {
-    background: url(../img/rainbow.png) no-repeat;
-    background-position: center;
-  color:#EB43A3;  
+h4 {
+   color: #EB43A3;
+
 }
 
-
-h3 {
-    text-align: end;
+#conteneur {
+    
+box-shadow: 800px 800px 54px px #FCFCFC;
+    border-radius: 2px solid #fff;
 }
 
-section {
-    background-color:white;
-    height:auto;
-}
-
-
-.galerie {
-margin-left: 20%;
+.titre {
+    color: #EB43A3;
 }
 
 .image {
@@ -155,21 +71,26 @@ margin-left: 20%;
  padding: 30px 10px;
  }
  
- img {
-     width: 100px;
-     height: 100px;
+ .image img {
+     width: 120px;
+     height: 120px;
  }
  
+figcaption {
+    opacity: 0.8;
+    background-color: #333;
+    height: 30px;
+    line-height: 30px;
 
- figcaption {
-     opacity: 0.8;
-     background-color: #333;
-     height: 30px;
-     line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
 
-     color: #fff;
-     text-align: center;
- }
+button {
+    background-color: #E577B5;
+    color: #fff;
+}
+
 
 footer {
     
@@ -183,11 +104,5 @@ footer {
 
 .clear {
     clear: both;
-}
-
-
-.titre {
-    
-    color: #EB43A3;
 }
 

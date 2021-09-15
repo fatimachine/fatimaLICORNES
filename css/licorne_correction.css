@@ -11,6 +11,87 @@ body {
 main {
     width: 900px;
     margin: 0 auto;
+
+    font-family: 'Courgette', cursive;
     background-color: #fff;
 
 }
+
+header {
+    
+    /* width: 900px; */
+    margin: 0 auto;
+
+    background-color: #C55394;
+    color: #fff;
+
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+
+    background-image:url("../img/rainbow.png");
+    background-position:top;
+    background-size:auto; 
+
+
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color:#C55394;  
+}
+
+h4 {
+   color: #EB43A3;
+
+}
+
+#conteneur {
+    
+box-shadow: 800px 800px 54px px #FCFCFC;
+    border-radius: 2px solid #fff;
+}
+
+.titre {
+    color: #EB43A3;
+}
+
+.image {
+    float: left;
+ padding: 30px 10px;
+ }
+ 
+ .image img {
+     width: 120px;
+     height: 120px;
+ }
+ 
+figcaption {
+    opacity: 0.8;
+    background-color: #333;
+    height: 30px;
+    line-height: 30px;
+
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    background-color: #E577B5;
+    color: #fff;
+}
+
+
+footer {
+    
+    background: #E577B5;
+     /* height: 60px;
+     width: 800px; */
+     text-align: right;
+  
+
+}
+
+.clear {
+    clear: both;
+}
+
