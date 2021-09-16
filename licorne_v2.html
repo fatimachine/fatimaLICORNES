@@ -12,14 +12,14 @@
     <!-- normalize en externe -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <!-- mes styles  -->
-    <link rel="stylesheet" href="css/licorne_correction.css">
+    <link rel="stylesheet" href="css/licorne_v2.css">
 
 </head>
 <body>
     <!-- en-tête -->
-    <header class="row">
-        <h2 class="col-2">MyUnicorn</h2>
-        <nav class="marge-7 col-3">
+    <header class="d-flex jc-space-between ai-center">
+        <h2>MyUnicorn</h2>
+        <nav class="d-flex ai-center">
             <a href="#principe" class="">Le principe</a>
             <a href="#licornes" class="">Nos licornes</a>
             <a href="#nous_trouver" class="">Nous trouver</a>
@@ -40,20 +40,20 @@
              <!-- la galerie  -->
             <section>
                 <h3 id="licornes">Nos licornes</h3>
-                <div class="row ml-50">
-                    <figure class="col-3">
+                <div id="galerie" class="d-flex vert jc-space-around">
+                    <figure>
                         <img src="img/photo1.jpg" alt="Lulu Confetty">
                         <figcaption>Lulu Confetty</figcaption>
                     </figure>
-                    <figure class="col-3">
+                    <figure>
                         <img src="img/photo2.jpg" alt="Lapillon Magik">
                         <figcaption>Lapillon Magik</figcaption>
                     </figure>
-                    <figure class="col-3">
+                    <figure>
                         <img src="img/photo3.jpg" alt="El NinjaCorn">
                         <figcaption>El NinjaCorn</figcaption>
                     </figure>
-                    <figure class="col-3">
+                    <figure>
                         <img src="img/photo4.jpg" alt="Sweety Candy">
                         <figcaption>Sweety Candy</figcaption>
                     </figure>
@@ -64,21 +64,21 @@
             <section>
                 <h3 id="nous_trouver">Nous trouver</h3>
 
-                <div class="row">
+                <div class="d-flex g-20">
                     <!-- i frame google maps adresse colombbus -->
-                    <div class="col-6">
+                    <div id="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9092271438985!2d2.21152571580728!3d48.85994130855139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e664cb22a29415%3A0xb5785da3aae22abe!2s8%20Bd%20Louis%20Loucheur%2C%2092150%20Suresnes!5e0!3m2!1sfr!2sfr!4v1631630832261!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <!-- fin de la div pour l'iframe  -->
                     
-                    <div id="contact" class="col-6">
+                    <div id="contact" class="">
                     
-                    <h4>Notre élevage de licornes est situé au :</h4>
-                        <address>
-                            8, bd Loucheur<br>
-                            92150 Suresnes<br>
-                            01 12 15 16 17
-                        </address>
+                        <h4>Notre élevage de licornes est situé au :</h4>
+                            <address>
+                                8, bd Loucheur<br>
+                                92150 Suresnes<br>
+                                01 12 15 16 17
+                            </address>
                     
                             <div>
                                 <h4>Newsletter</h4>

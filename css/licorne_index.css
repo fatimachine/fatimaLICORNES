@@ -1,18 +1,18 @@
-/* styles pour les licornes pisola */
-
-/* font-family: 'Courgette', cursive; */
 
 body {
     background-image:url(../img/background.png);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 main {
+
     border-radius: 30px;
     
+    box-shadow: 5px 10px 25px #333;
+    
     width: 900px;
-    margin: 0 auto;
+    margin: auto;
+ 
 
     font-family: 'Courgette', cursive;
     background-color: #fff;
@@ -20,9 +20,7 @@ main {
 }
 
 header {
-   
-    margin: 0 auto;
-
+    position: sticky;
     background-color: #C55394;
     color: #fff;
 
@@ -38,31 +36,28 @@ nav {
 
 nav a {
 
- 
-    width: 130px;
-    line-height: 20px;
-    
+    text-align: center;
+    text-decoration: none;
 
     border-right: 2px solid #C55394;
-
-    text-decoration: none;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 nav a:hover {
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+
     
     background-color: #EB43A3;
-
-    text-decoration: none;
     color: #fff;
-    letter-spacing: 2px;
-    
-
 }
 
 h1 {
 
     background:url('../img/rainbow.png') no-repeat top;
+    padding: 30px;
    
    
     font-family: 'Courgette', cursive;
@@ -71,8 +66,14 @@ h1 {
 }
 
 h4 {
+    margin: auto;
+    padding: 30px;
    color: #EB43A3;
 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -81,16 +82,21 @@ h4 {
 }
 
 .image {
-    float: left;
- padding: 30px 10px;
+    display:inline-block;
+    
+    padding: 30px 10px;
  }
  
  .image img {
+
      width: 120px;
      height: 120px;
  }
  
 figcaption {
+
+    position: relative;
+    bottom: 20px;
     opacity: 0.8;
     background-color: #333;
     height: 30px;
@@ -100,11 +106,10 @@ figcaption {
     text-align: center;
 }
 
-#contact {
 
+#contact address {
     text-align: right;
 }
-
 button {
     background-color: #E577B5;
     color: #fff;
@@ -112,6 +117,9 @@ button {
 
 
 footer {
+
+    margin: auto;
+ 
     
     position: sticky;
     background: #E577B5;
@@ -120,6 +128,14 @@ footer {
      text-align: right;
   
 
+}
+
+.d-flex {
+    display: flex;
+}
+
+.g-20 {
+    gap: 20px;
 }
 
 .clear {

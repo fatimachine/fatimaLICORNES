@@ -1,9 +1,7 @@
-/* styles pour les licornes pisola */
-
 /* font-family: 'Courgette', cursive; */
 
 body {
-    background-image:url(../img/background.png);
+    background-image: url(../../img/background.png);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,87 +9,145 @@ body {
 main {
     width: 900px;
     margin: 0 auto;
-
-    font-family: 'Courgette', cursive;
     background-color: #fff;
-
 }
 
-header {
-    
-    /* width: 900px; */
-    margin: 0 auto;
+.bleu-leger {
+    background-color: lightblue;
+}
 
-    background-color: #C55394;
-    color: #fff;
+.vert {
+    background: lightgreen;
+}
 
-    font-family: 'Courgette', cursive;
+.gris-leger {
+    background-color: lightgrey;
+}
+
+/* la classe pour créer une rangée */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* passage à la ligne des éléments pour que la largeur des col soit respectée */
+    flex-wrap: wrap;
+    row-gap:5px;
+}
+
+/* la classe pour mettre les éléments les uns en dessous des autres */
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centre {
+    justify-content: center;
+}
+
+/* la grille sur 12 colonnes, et la définition de la largeur des colonnes */
+
+.col-1 {
+    /* cette valeur est la largeur en % d'une colonne si je veux la largeur de 2 colonnes je fais la largeur d'une colonne X 2 */
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-5 {
+    width: 41.666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-8 {
+    width: 66.666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-11 {
+    width: 91.666666%;
+}
+
+.col-12 {
+    width: 100%;    
+}
+
+/* les marges à gauche pour créer si on le veut des colonnes vides */
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.66666%;
+}
+.marge-3 {
+    margin-left: 25%;
+}
+.marge-4 {
+    margin-left: 33.333333%;
+}
+.marge-5 {
+    margin-left: 41.666666%;
+}
+.marge-6 {
+    margin-left: 50%;
+}
+.marge-7 {
+    margin-left: 58.333333%;
+}
+.marge-8 {
+    margin-left: 66.666666%;
+}
+.marge-9 {
+    margin-left: 75%;
+}
+.marge-10 {
+    margin-left: 83.333333%;
+}
+.marge-11 {
+    margin-left: 91.666666%;
 }
 
 h1 {
-
-    background-image:url("../img/rainbow.png");
-    background-position:top;
-    background-size:auto; 
-
-
-    font-family: 'Courgette', cursive;
-    text-align: center;
-    color:#C55394;  
-}
-
-h4 {
-   color: #EB43A3;
-
-}
-
-#conteneur {
-    
-box-shadow: 800px 800px 54px px #FCFCFC;
-    border-radius: 2px solid #fff;
-}
-
-.titre {
-    color: #EB43A3;
-}
-
-.image {
-    float: left;
- padding: 30px 10px;
- }
- 
- .image img {
-     width: 120px;
-     height: 120px;
- }
- 
-figcaption {
-    opacity: 0.8;
-    background-color: #333;
-    height: 30px;
-    line-height: 30px;
-
-    color: #fff;
+    width: 900px;
+    margin: auto;
     text-align: center;
 }
 
-button {
-    background-color: #E577B5;
-    color: #fff;
+/* pour la galerie d'images  */
+
+.ml-50 {
+    margin-left: 50px;
+}
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 
-footer {
-    
-    background: #E577B5;
-     /* height: 60px;
-     width: 800px; */
-     text-align: right;
-  
-
+figure img {
+    width: 160px;
 }
-
-.clear {
-    clear: both;
-}
-
